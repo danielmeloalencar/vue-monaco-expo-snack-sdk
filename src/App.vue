@@ -78,7 +78,7 @@ export default function App() {
         };
     },
     methods: {
-        pegaURL: async function () {
+        async pegaURL() {
             // Create Snack
             this.snack = new Snack({
                 online: true,
@@ -100,17 +100,18 @@ export default function App() {
                     this.dispositivos = Object.keys(state.connectedClients).length;
                     for (const key in state.connectedClients) {
                         if (!prevState.connectedClients[key]) {
-                            console.log(
-                                "A client has connected! " +
-                                state.connectedClients[key].platform
-                            );
+                            /* console.log(
+                                 "A client has connected! " +
+                                 state.connectedClients[key].platform
+                             );
+                             */
                         }
                     }
                 }
             });
         },
 
-        atualizarCodigo: async function () {
+        async atualizarCodigo() {
             this.snack.updateFiles({
                 "App.js": {
                     type: "CODE",
@@ -138,14 +139,16 @@ export default function App() {
             */
         },
 
-        pegaInfo: async function () {
+        async pegaInfo() {
+
             //await this.snack.setName('MEUAPP')
             this.snack.getStateAsync().then(() => {
                 // this.url = response.url;
                 //console.log(response);
             });
         },
-        atualizarDependencias: async function () {
+        async atualizarDependencias() {
+
             this.msg = "Atualizando dependências...";
             this.snack.updateDependencies(JSON.parse(this.dependencias.trim()));
             const {

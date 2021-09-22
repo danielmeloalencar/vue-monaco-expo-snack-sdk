@@ -165,7 +165,8 @@ export default function App() {
             /** RESOLVE AS DEPENDENCIAS PERDIDAS */
 
             const depend = {};
-            for (const name in this.snack.getState().missingDependencies) {
+            const missDep = this.snack.getState().missingDependencies;
+            for (const name in missDep) {
                 depend[name] = {
                     version: this.snack.getState().missingDependencies[name]
                         .wantedVersion,

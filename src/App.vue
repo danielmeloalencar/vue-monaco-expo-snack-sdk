@@ -170,7 +170,7 @@ export default function App() {
                     version: this.snack.getState().missingDependencies[name]
                         .wantedVersion,
                 };
-                console.log("Instalando ependencia perdida: " + name);
+                this.msg = "Instalando ependencia perdida: " + name;
             }
             //console.log(depend);
             this.snack.updateDependencies(depend);

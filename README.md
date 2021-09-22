@@ -1,6 +1,6 @@
-# VueJS + Monaco Editor + Expo Snack SDK [![Codacy Badge](https://api.codacy.com/project/badge/Grade/26e36b4144c1415e93d3ee398a785e05)](https://app.codacy.com/gh/danielmeloalencar/vue-monaco-expo-snack-sdk?utm_source=github.com&utm_medium=referral&utm_content=danielmeloalencar/vue-monaco-expo-snack-sdk&utm_campaign=Badge_Grade_Settings)
+# VueJS + Monaco Editor + Expo Snack SDK [![Codacy Badge](https://app.codacy.com/project/badge/Grade/7472951707244794abf60c60a53433a8)](https://www.codacy.com/gh/danielmeloalencar/vue-monaco-expo-snack-sdk/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=danielmeloalencar/vue-monaco-expo-snack-sdk&amp;utm_campaign=Badge_Grade)
 
-### Este projeto é parte de um projeto maior
+## Este projeto é parte de um projeto maior
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 

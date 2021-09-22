@@ -1,5 +1,5 @@
 {
-  "name": "snack-lab",
+  "name": "vue-monaco-expo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "qrcode.vue": "^1.7.0",
+    "snack-sdk": "^3.5.1",
+    "vue": "^2.6.11",
+    "vue-monaco": "^1.2.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -18,6 +21,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "monaco-editor-webpack-plugin": "^4.1.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

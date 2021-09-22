@@ -44,9 +44,9 @@ Para compilar, siga estas etapas:
 npm run build
 ```
 
-## 📫 Contribuindo para Eagle IDE
+## 📫 Contribuindo para o projeto
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com Eagle IDE, siga estas etapas:
+Para contribuir, siga estas etapas:
 
 1. Fork it!
 2. Crie um branch: `git checkout -b my-new-feature`.
@@ -64,7 +64,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
       <td align="center">
       <a href="#">
-        <img src="daniel-alencar.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="daniel-alencar.jpg" width="100px;" alt="Foto de Daniel Alencar"/><br>
         <sub>
           <b>Daniel Melo Alencar</b>
         </sub>

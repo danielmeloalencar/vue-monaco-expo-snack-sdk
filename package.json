@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "qrcode.vue": "^1.7.0",
-    "snack-sdk": "^3.5.1",
+    "snack-sdk": "^4.0.1",
     "vue": "^2.6.11",
     "vue-monaco": "^1.2.2"
   },
